@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="assets/img/titleIcon.png" type="image/png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Movie Finder</title>
+
+</head>
+
+<body>
+    <div id="main">
+        <h1 class="headding">Welcome to Movie Finder</h1>
+        <div>
+            <label for="inputBox">Search: </label>
+            <input type="text" placeholder="Type Here..." id="inputBox" />
+            <button id="searchBtn"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </div>
+
+        <div id="noResultBox">
+            <h3 id="errText">There is no data of your search!</h3>
+            <h4 id="adviceText">Please ensure that your input uses the correct
+                capitalization for both uppercase and lowercase letters!</h4>
+        </div>
+
+        <div id="container"></div>
+
+        <script src="assets/scripts/movieFinder.js"></script>
+    </div>
+</body>
+
+</html>

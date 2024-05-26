@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main {
+  height: 100vh;
+}
+
+#container {
+  margin-top: 15px;
+  width: 100vw;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#noResultBox {
+  display: none;
+  margin-top: 15px;
+}
+
+#main,
+#noResultBox {
+  align-items: center;
+  flex-direction: column;
+}
+
+#main,
+#container {
+  display: flex;
+}
+
+.headding {
+  padding: 10px 0px;
+}
+
+#inputBox,
+#searchBtn {
+  padding: 2px 10px;
+}
+
+#errText {
+  color: red;
+  margin-top: 5px;
+}
+
+#adviceText {
+  color: rgb(135, 151, 151);
+  margin-top: 2px;
+}
