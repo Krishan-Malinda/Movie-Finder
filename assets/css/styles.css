@@ -4,31 +4,21 @@
   box-sizing: border-box;
 }
 
-#main {
-  height: 100vh;
+#adviceText {
+  color: rgb(135, 151, 151);
+  margin-top: 2px;
 }
 
 #container {
   margin-top: 15px;
-  width: 100vw;
+  width: 100%;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-#noResultBox {
-  display: none;
-  margin-top: 15px;
-}
-
-#main,
-#noResultBox {
-  align-items: center;
-  flex-direction: column;
-}
-
-#main,
-#container {
-  display: flex;
+#errText {
+  color: red;
+  margin-top: 5px;
 }
 
 .headding {
@@ -40,12 +30,22 @@
   padding: 2px 10px;
 }
 
-#errText {
-  color: red;
-  margin-top: 5px;
+#main {
+  height: 100vh;
 }
 
-#adviceText {
-  color: rgb(135, 151, 151);
-  margin-top: 2px;
+#main,
+#container {
+  display: flex;
+}
+
+#main,
+#noResultBox {
+  align-items: center;
+  flex-direction: column;
+}
+
+#noResultBox {
+  display: none;
+  margin-top: 15px;
 }
